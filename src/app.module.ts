@@ -8,7 +8,9 @@ import { AppService } from './app.service';
 import { AuthGuard } from './auth/auth.guard';
 import { AuthModule } from './auth/auth.module';
 import { UserModule } from './user/user.module';
-import { PostModule } from './post/post.module';
+import { SnareModule } from './snare/snare.module';
+import { TomModule } from './tom/tom.module';
+import { CymbalModule } from './cymbal/cymbal.module';
 
 @Module({
   imports: [
@@ -33,7 +35,9 @@ import { PostModule } from './post/post.module';
     }),
     AuthModule,
     UserModule,
-    PostModule
+    SnareModule,
+    TomModule,
+    CymbalModule
   ],
   controllers: [AppController],
   providers: [

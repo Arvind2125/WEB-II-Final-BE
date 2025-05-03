@@ -27,7 +27,6 @@ export class UserController {
     return {
       username: user.username,
       email: user.email,
-      bio: user.bio,
       created_at: user.created_at,
       updated_at: user.updated_at,
     };

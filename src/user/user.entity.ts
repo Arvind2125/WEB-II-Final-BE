@@ -20,12 +20,6 @@ export class User {
   @Column()
   password_hash: string;
 
-  @Column()
-  profile_picture: string;
-
-  @Column()
-  bio: string;
-
   @CreateDateColumn()
   created_at: Date;
 
